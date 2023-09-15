@@ -1,0 +1,77 @@
+*{
+    max-width: 1600px;
+}
+header{
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 5px;
+    background: blue;
+    padding: 15px;
+}
+header h1{
+    color: azure;
+    text-align: center;
+    position: relative;  
+}
+img{
+    margin: auto;
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+nav{
+    
+    background: black; 
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    
+    
+}
+nav ul li{
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+}
+nav a:hover{
+    background: blue;
+}
+
+main h2{
+    text-align: center;
+}
+.card{
+    
+    display: grid;
+    
+    grid-column: 1 / 5;
+    border: 1px solid black;
+
+}
+
+.card h3{
+    color: azure;
+    background: blue;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.card ul li{
+    list-style: none;
+}
+.card div{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer{
+    background: blue;
+    color: azure;
+    text-align: center;
+}
