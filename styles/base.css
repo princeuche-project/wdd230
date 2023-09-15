@@ -18,12 +18,12 @@ header div{
     display: inline-flex;
     text-align: center;
     position: relative;
-    left: 28%;
+    left: 30%;
 }
 header h1{
     text-align: center;
     position: relative;
-    bottom: 5px;
+    top: 7px;
     color: azure;
     margin: 5px; 
     font-size: 22px;
