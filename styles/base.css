@@ -1,17 +1,31 @@
 *{
     max-width: 1600px;
 }
+html{
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: auto;
+    overflow-x: hidden;
+}
 header{
-    justify-content: space-around;
-    align-content: space-around;
+    
+   align-content: center;
     margin: 5px;
     background: blue;
     padding: 15px;
 }
-header h1{
-    color: azure;
+header div{
+    display: inline-flex;
     text-align: center;
-    position: relative;  
+    position: relative;
+    left: 28%;
+}
+header h1{
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    color: azure;
+    margin: 5px; 
 }
 img{
     margin: auto;
@@ -26,12 +40,15 @@ nav{
     text-align: center;
     margin: 5px;
     padding: 15px;
+    
 }
 nav ul li a {
     text-decoration: none;
     color: azure;
+    font-size: 25px;
+    font-style: italic;
     
-    
+ 
 }
 nav ul li{
     padding: 5px;
@@ -66,6 +83,25 @@ main h2{
 }
 .card div{
     text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+span img{
+    justify-content: end;
+    align-items: end;
+    display: inline-flex;
+    margin: 5px;
+    
+}
+
+.country{
+    position: relative;
+    bottom: 5px;
+    color: azure;
+    display: inline-flex;
+    margin: 5px;
+}
+.country h4{
     margin: 5px;
     padding: 5px;
 }
