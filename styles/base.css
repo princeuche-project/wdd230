@@ -1,114 +1,143 @@
-*{
+* {
     max-width: 1600px;
 }
-html{
+
+html {
     width: 100vw;
     height: 100vh;
-    scroll-behavior: auto;
-    overflow-x: hidden;
+    overflow: scroll;
+    overflow-y: scroll;
 }
-header{
-    
-   
+
+header {
+
+
     margin: 5px;
     background: #274C77;
     padding: 20px;
 }
-header div{
+
+header div {
     display: inline-flex;
-    text-align: center;
+    justify-content: first baseline;
     position: relative;
-    left: 35%;
+    left: 25%;
 }
-header h1{
+
+header h1 {
     text-align: center;
     position: relative;
     top: 7px;
     color: azure;
-    margin: 5px; 
+    margin: 5px;
     font-size: 22px;
 }
-img{
+
+img {
     margin: auto;
     display: block;
     width: 3.5rem;
     height: 3.5rem;
 }
 
-nav{
-    
-    background: black; 
+nav {
+
+    background: black;
     text-align: center;
-    margin: 5px;
+    margin: 6px;
     padding: 15px;
-    
+
 }
+
 nav ul li a {
     text-decoration: none;
     color: azure;
     font-size: 25px;
     font-style: italic;
-    
- 
+
+
 }
-nav ul li{
+
+nav ul li {
     padding: 5px;
     margin: 5px;
     list-style-type: none;
 }
-nav a:hover{
+
+nav a:hover {
     background: #274C77;
 }
 
-main h2{
+main h2 {
     text-align: center;
 }
-.card{
-    
+
+.card {
+
     display: grid;
-    
+
     grid-column: 1 / 5;
     border: 1px solid black;
 
 }
 
-.card h3{
+.card h3 {
+
     color: azure;
     background: #274C77;
     margin: 5px;
     padding: 10px;
     text-align: center;
 }
-.card ul li{
+
+.card ul li {
     list-style: none;
 }
-.card div{
+
+.card div {
     text-align: center;
     margin: 5px;
     padding: 5px;
 }
-span img{
+
+span img {
     justify-content: end;
     align-items: end;
     display: inline-flex;
     margin: 5px;
-    
+
 }
 
-.country{
+.country {
     position: relative;
     bottom: 5px;
     color: azure;
     display: inline-flex;
     margin: 5px;
 }
-.country h4{
+
+.country h4 {
     margin: 5px;
     padding: 5px;
 }
 
-footer{
+footer {
     background: #274C77;
     color: azure;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    header, nav {
+       
+        width: 100%;
+        position: relative;
+        margin-right: 15px;
+    }
+
+    header div img, h1 {
+        position: relative;
+        right: 17%;
+    }
+
 }
