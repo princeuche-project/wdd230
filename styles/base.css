@@ -22,9 +22,9 @@ header div {
     width: 60vw;
     padding: 10px;
     display: inline-flex;
-    justify-content: first baseline;
+    justify-content: center;
     position: relative;
-    left: 25%;
+    
     background: #274C77;
     margin: 5px;
 }
@@ -36,6 +36,7 @@ header h1 {
     color: azure;
     margin: 5px;
     font-size: 22px;
+    right: 15px;
 }
 
 img {
@@ -43,6 +44,8 @@ img {
     display: block;
     width: 3.5rem;
     height: 3.5rem;
+    position: relative;
+    left: 23%;
 }
 
 nav {
