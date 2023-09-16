@@ -9,16 +9,16 @@ html{
 }
 header{
     
-   align-content: center;
+   
     margin: 5px;
-    background: blue;
-    padding: 15px;
+    background: #274C77;
+    padding: 20px;
 }
 header div{
     display: inline-flex;
     text-align: center;
     position: relative;
-    left: 30%;
+    left: 35%;
 }
 header h1{
     text-align: center;
@@ -57,7 +57,7 @@ nav ul li{
     list-style-type: none;
 }
 nav a:hover{
-    background: blue;
+    background: #274C77;
 }
 
 main h2{
@@ -74,7 +74,7 @@ main h2{
 
 .card h3{
     color: azure;
-    background: blue;
+    background: #274C77;
     margin: 5px;
     padding: 10px;
     text-align: center;
@@ -108,7 +108,7 @@ span img{
 }
 
 footer{
-    background: blue;
+    background: #274C77;
     color: azure;
     text-align: center;
 }
