@@ -127,8 +127,11 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 400px) {
-    header, nav {
+@media only screen and (max-width: 768px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+    /* header, nav {
        
         width: 100%;
         position: relative;
@@ -138,6 +141,6 @@ footer {
     header div img, h1 {
         position: relative;
         right: 17%;
-    }
+    } */
 
 }
