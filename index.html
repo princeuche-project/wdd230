@@ -8,6 +8,7 @@
     <title>Uchenna - WDD 230 - Web Frontend Development</title>
     <link rel="icon" href="images/flag.jpeg">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/media-query.css">
     <meta property="og:url" content="https://princeuche-project.github.io/wdd230/" />
     <meta property="og:image" content="images/uche.jpg" />
 
@@ -23,7 +24,7 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li class="home"><a href="#">Home</a></li>
             <li><a href="chamber/siteplan.html">Site Plan</a></li>
             <li><a href="">Chamber</a></li>
             <li><a href="">BUY-Idaho</a></li>
@@ -36,21 +37,27 @@
         <h2>WDD 230: Web Frontend Development</h2>
         <hr>
 
-        <section class="card">
-            <h3>Learning Actitvies</h3>
-            <ul>
-                <li><a href="">Holy Layout | JS Pen</a></li>
-                <li><a href="lesson 01/media-query.html">Media Query Example</a></li>
-                <li><a href="lesson 02/design.html">Media Query | Design Principles Document </a></li>
-            </ul>
-        </section>
+        <div class="container">
 
-        <section class="card">
-            <h3>Information</h3>
-            <div>Toloria Madagascar</div>
-            <div>76 F- Sunshine</div>
-            <div>Page Visits : 15</div>
-        </section>
+            <section class="card1">
+                <ul>
+                    <h3>Learning Actitvies</h3>
+                    <li><a href="">Holy Layout | JS Pen</a></li>
+                    <li><a href="lesson 01/media-query.html">Media Query Example</a></li>
+                    <li><a href="lesson 02/design.html">Media Query | Design Principles Document </a></li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h3>Information</h3>
+                <p>Toloria Madagascar</p>
+                <p>76 F- Sunshine</p>
+                <p>Page Visits : 15</p>
+            </section>
+
+        </div>
+
+
     </main>
 
     <footer>

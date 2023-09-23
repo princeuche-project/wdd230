@@ -48,12 +48,13 @@ header img {
     
 }
 
-nav {
+nav ul {
 
     background: black;
     text-align: center;
     margin: 6px;
     padding: 15px;
+    display: block;
 
 }
 
@@ -80,32 +81,33 @@ main h2 {
     text-align: center;
 }
 
-.card {
+/* .card {
 
     display: grid;
 
     grid-column: 1 / 5;
     border: 1px solid black;
 
-}
+} */
 
-.card h3 {
+section h3, section h3 {
 
     color: azure;
     background: #274C77;
-    margin: 5px;
-    padding: 10px;
+    margin: 1rem;
+    padding: 1rem;
     text-align: center;
 }
 
-.card ul li {
+.card1 ul li {
     list-style: none;
 }
 
-.card div {
+.card{
     text-align: center;
     margin: 5px;
     padding: 5px;
+    
 }
 
 span img {

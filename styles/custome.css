@@ -1,0 +1,79 @@
+/*
+To change the Primary Header color edit below class
+*/
+div {
+    background-color: #0B4C5F;
+    background-image: none;
+  }
+  
+  /*
+  To change the Header logo and Size edit below class
+  */
+  .oneui .idxHeaderContainer .idxHeaderPrimary .idxHeaderLogo {
+      background-image: url('/itim/ui/custom/ui/images/headerLogo.png');
+      background-color: rba(0,0,0,0);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: 100px 25px;
+  }
+  
+  /*
+  To change the Header logo and Size edit below class
+  */
+  .dijitRtl .oneui .idxHeaderContainer .idxHeaderPrimary .idxHeaderLogo {
+      float: center;
+      background-image: url('/itim/ui/custom/ui/images/headerLogo.png');
+      background-color: rba(0,0,0,0);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: 100px 25px;
+  }
+  
+  /*
+  To change the secondary Header properties edit below class
+  */
+  .itimSSNavHeader {
+      background: #A9D0F5; /* Old browsers */
+      background: -moz-linear-gradient(top, #A9D0F5 0%, #819FF7 80%, #A9D0F5 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A9D0F5), color-stop(80%,#819FF7), color-stop(100%,#A9D0F5)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #A9D0F5 0%,#819FF7 80%,#A9D0F5 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #A9D0F5 0%,#819FF7 80%,#A9D0F5 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #A9D0F5 0%,#819FF7 80%,#A9D0F5 100%); /* IE10+ */
+      background: linear-gradient(to bottom, #A9D0F5 0%,#819FF7 80%,#A9D0F5 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A9D0F5', endColorstr='#819FF7',GradientType=0 ); /* IE6-9 */
+      width: 100%;
+      height: 34px;
+      padding-top: 7px;
+      padding-left: 0;
+      min-width: 980px;
+  }
+  
+  
+  .itimSSNavHeader .MenuBar{
+      background:transparent;
+      border:none;
+      display: inline-block;
+  }
+  .oneui .itimui .idxHeaderContainer .idxHeaderNavigationHome {
+      width: 15px;
+  }
+  
+  .oneui .itimui .idxHeaderContainer .dijitMenuItemHover .idxHeaderNavigationHome {
+      width: 15px;
+  }
+  
+  .dijitRtl .oneui .itimui .idxHeaderContainer .idxHeaderNavigationHomeButtonOnly.cssForHebrew {
+      background-position: -151px -5px;
+  }
+  
+  .dijitRtl .oneui .itimui .idxHeaderContainer .dijitMenuItemHover .idxHeaderNavigationHomeButtonOnly.cssForHebrew{
+      background-position: -217px -5px;
+  }
+  
+  .oneui .itimui .idxHeaderContainer .idxHeaderPrimary .idxHeaderDropDown .idxHeaderDropDownArrow{
+      display:none;
+  }
+  
+  .oneui .itimui .idxHeaderContainer .idxHeaderPrimary li.idxHeaderPrimaryAction .idxHeaderUserName{
+      cursor:default;
+  }
