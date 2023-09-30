@@ -11,19 +11,16 @@ html {
 }
 
 header {
-
-
     margin: 5px;
     background: #274C77;
     padding: 20px;
 }
 
 header div {
-    
+
     padding: 10px;
     display: inline-flex;
     position: relative;
-    background: #274C77;
     margin: 5px;
 }
 
@@ -34,18 +31,17 @@ header h1 {
     color: azure;
     margin: 5px;
     font-size: 22px;
-    
-    
+
+
 }
 
 header img {
     margin: auto;
-    
     width: 3.5rem;
     height: 3.5rem;
     position: relative;
     margin-left: 10rem;
-    
+
 }
 
 nav ul {
@@ -74,23 +70,24 @@ nav ul li {
 }
 
 nav a:hover {
-    background: #274C77;
+    background-color: #274C77;
 }
 
 main h2 {
     text-align: center;
 }
 
-/* .card {
 
-    display: grid;
+.active::before {
 
-    grid-column: 1 / 5;
-    border: 1px solid black;
+    content: "😊";
 
-} */
+}
 
-section h3, section h3 {
+
+
+section h3,
+section h3 {
 
     color: azure;
     background: #274C77;
@@ -103,11 +100,11 @@ section h3, section h3 {
     list-style: none;
 }
 
-.card{
+.card {
     text-align: center;
     margin: 5px;
     padding: 5px;
-    
+
 }
 
 span img {
@@ -136,23 +133,8 @@ footer {
     color: azure;
     text-align: center;
 }
-footer img{
+
+footer img {
     width: 3.5rem;
     height: 3.5rem;
-}
-
-@media only screen and (max-width: 768px) {
-    [class*="col-"]{
-        width: 100%;
-    }
-    header, nav {
-        position: relative;
-        margin-right: 15px;
-    }
-
-    header div img, h1 {
-        position: relative;
-        right: 20%;
-    }
-
 }
