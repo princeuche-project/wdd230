@@ -1,5 +1,10 @@
-* {
-    max-width: 1600px;
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-background);
+    user-select: none;
+    overflow-y: scroll;
 }
 
 html {
