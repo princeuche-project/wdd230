@@ -73,7 +73,7 @@
     } */
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:600px){
 
     header {
         width: 100%;
@@ -180,44 +180,43 @@
     div.container {
         
         display: block;
-        grid-template-columns: 1fr;
+        width: 100%;
         padding: 1rem;
-        margin: 5rem;
+        margin: 1rem;
         position: relative;
-        bottom: 6rem;
+        bottom: 2rem;
     }
 
-    .card1 ul,
+    /* .card1 ul,
     .card {
         
-        padding: 2rem;
+       
         height: 100%;
         border: 1px solid gray;
         box-shadow: 5px 5px 5px #274C77;
-    }
+    } */
 
-    .card1 {
+    /* .card1 {
         width: 100%;
         /* position: relative;
         bottom: 1.6rem;
         padding: 1rem;
         min-width: 300px; */
         /* grid-column: 1/2; */
-    }
+    } 
 
-    .card {
-        width: 100%;
+    /* .card {
+        width: 100%; */
         /* padding: 1rem;
         color: black;
         /* grid-column: 2/4; */
         /* max-width: 400px;
         position: relative;
         bottom: 2rem; */ 
-    }
+    
 footer{
     width: 106.5%;
     
     
 }
    
-}
