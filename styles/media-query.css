@@ -180,7 +180,7 @@
     div.container {
         
         display: block;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 1rem;
         margin: 5rem;
         position: relative;
@@ -198,21 +198,21 @@
 
     .card1 {
         width: 100%;
-        position: relative;
+        /* position: relative;
         bottom: 1.6rem;
         padding: 1rem;
-        min-width: 300px;
-        grid-column: 1/2;
+        min-width: 300px; */
+        /* grid-column: 1/2; */
     }
 
     .card {
         width: 100%;
-        padding: 1rem;
+        /* padding: 1rem;
         color: black;
-        grid-column: 2/4;
-        max-width: 400px;
+        /* grid-column: 2/4; */
+        /* max-width: 400px;
         position: relative;
-        bottom: 2rem;
+        bottom: 2rem; */ 
     }
 footer{
     width: 106.5%;
