@@ -3,7 +3,7 @@
     header {
         width: 100%;
         display: flex;
-        background-color: brown;
+        background-color: #fe654f;
     }
 
     .icon {
@@ -53,6 +53,7 @@
         position: absolute;
         top: 30%;
         left: 70%;
+        
       }
 
     .news-update img {
@@ -62,7 +63,7 @@
     .news-update h2{
         font-size: 20px;
         position: absolute;
-        top: 30%;
+        top: 25%;
         right: 55%;
     }
 
@@ -81,6 +82,15 @@
         height: 200px;
         padding: 1rem;
         margin: 5px;   
+    }
+
+    footer{
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        grid-template-rows: repeat(3, auto);
+    
     }
 
 }

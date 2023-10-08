@@ -153,11 +153,15 @@ header h1 {
 
 .Uchenna-image {
   background-color: var(--accent1-color);
+  width: 250px;
 
 }
 
 .Uchenna-image>img {
-  width: 230px;
+  width: 220px;
+  height: 200px;
+  padding: 3px;
+  margin: 3px;
   background-color: var(--accent1-color);
 }
 
@@ -278,12 +282,3 @@ footer .social img:hover {
   display: table;
   clear: both;
 }
-
-/* @media only screen and (max-width: 500px) {
-
-  .navigation-bar {
-    width: 100%;
-    display: flex;
-    background-color: brown;
-  }
-} */
