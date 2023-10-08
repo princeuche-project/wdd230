@@ -1,11 +1,7 @@
-// function myFunction() {
-//     let x = document.getElementById("myNav");
-//     if (x.style.display === "block") {
-//       x.style.display = "none";
-//     } else {
-//       x.style.display = "block";
-//     }
-//   }
+let lastvisit = new Date(document.lastModified)
+document.getElementById("lastvisit").innerHTML = lastvisit;
+
+
 const hamp = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation-bar');
 

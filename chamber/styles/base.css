@@ -80,9 +80,7 @@ button:hover {
   color: white;
 }
 
-.active {
-  color: red;
-}
+
 
 .navigation-bar a:hover {
   color: var(--nav-hover-link-color);
@@ -116,7 +114,11 @@ header h1 {
   color: black;
   padding: auto;
   margin: 3px;
+  transition: width 2s, height 2s, transform 1s;
 
+}
+header h1:hover{
+  transform: scale(1.1);
 }
 
 .news-update>h2 {

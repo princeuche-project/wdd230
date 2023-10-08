@@ -54,7 +54,7 @@
     .navigation-bar a:hover {
         background-color: #c2e812;
         color: #333;
-        font-weight: 700;
+        
     }
 
     .show li {
@@ -89,6 +89,9 @@
         top: 25%;
         right: 55%;
     }
+    header>h1{
+        font-size: 20px;
+    }
 
     .colume1,
     .colume2,
@@ -96,7 +99,7 @@
     .advert1,
     .advert2 {
         padding: 1rem;
-        margin: 1rem;
+        margin: 1rem auto;
         max-width: 300px;
     }
 
