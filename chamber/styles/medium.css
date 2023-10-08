@@ -25,6 +25,9 @@
     #myNav{
         display: block;
     }
+    .icon{
+        display: block;
+    }
 
     .navigation-bar a {
         width: 100%;
