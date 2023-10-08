@@ -1,4 +1,4 @@
-let lastvisit = new Date(document.lastModified)
+let lastvisit = new Date(document.lastModified);
 document.getElementById("lastvisit").innerHTML = lastvisit;
 
 
