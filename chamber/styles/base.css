@@ -44,11 +44,11 @@
 
 }
 
-.navigation-bar a {
+.navigation-bar li {
   display: inline-flex;
-  position: relative;
-  left: 800px;
-  color: white;
+   position: relative;
+ left: 700px;
+  float: left;
   text-align: center;
   margin: 5px;
   padding: 5px;
@@ -57,8 +57,8 @@
   border-radius: 15px;
 
 }
-.icon{
-  display: none;
+.navigation-bar li a{
+  color: white;
 }
 
 button {
@@ -81,7 +81,7 @@ button:hover {
 }
 
 .active {
-  background-color: var(--nav-hover-background-color);
+  color: red;
 }
 
 .navigation-bar a:hover {
