@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
 
     header {
         width: 100%;
@@ -27,28 +27,6 @@
 
     }
 
-    /* .navigation-bar { */
-        
-        /* background-color: steelblue; */
-        /* color: #fff;
-    }
-    #myNav{
-        display: block;
-    }
-    .icon{
-        display: block;
-    } */
-
-    /* .navigation-bar a {
-        width: 100%;
-        position: relative;
-        right: 3rem;
-        padding: 1rem;
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-    } */
-
     .navigation-bar {
         width: 200px;
         display: flex;
@@ -64,12 +42,12 @@
     }
 
     .navigation-bar a {
-        width: 200px;
+        width: 100%;
         position: relative;
         right: 710px;
         display: block;
         padding: 3px;
-        text-align: center;
+        text-align: left;
         font-size: 17px;
     }
 
@@ -87,20 +65,6 @@
     .show li a {
         display: block;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .content-area,
     .content-area1 {
         display: grid;
