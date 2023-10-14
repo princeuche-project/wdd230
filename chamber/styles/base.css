@@ -55,13 +55,13 @@ header {
   position: absolute;
   top: 3px;
   left: 90%;
-
   color: var(--nav-hover-link-color);
   padding: 8px 24px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: right;
+  
 }
 
 #sharp-1 {
