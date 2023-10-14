@@ -24,10 +24,11 @@
   --nav-color-on-color: white;
 
 }
-.lemmon{
+
+.lemmon {
   background: var(--nav-hover-link-color);
   color: white;
-  
+
 }
 
 * {
@@ -42,18 +43,19 @@
   box-sizing: border-box;
 
 }
-header{
+
+header {
   background-color: #0bc9cd;
-  
+
 }
 
 /* Toggle bar */
 
-.theme-toggler{
+.theme-toggler {
   position: absolute;
   top: 3px;
   left: 90%;
-  background-color: var(--nav-hover-background-color);
+
   color: var(--nav-hover-link-color);
   padding: 8px 24px;
   border: none;
@@ -61,7 +63,8 @@ header{
   border-radius: 5px;
   text-align: right;
 }
-#sharp-1{
+
+#sharp-1 {
   color: white;
 }
 
@@ -78,7 +81,7 @@ header{
   text-decoration: none;
   font-size: 30px;
   border-radius: 15px;
-background-color: #0bc9cd;
+  background-color: #0bc9cd;
 }
 
 .navigation-bar li a {
@@ -156,6 +159,14 @@ header h1:hover {
   color: white;
   text-align: center;
   transition: width 2s, height 2s, transform 1s;
+}
+
+#weather {
+  border: 2px solid var(--accent1-color);
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 4rem;
+  float: right;
 }
 
 .news-update>h2:hover {
@@ -274,7 +285,7 @@ header h1:hover {
 
 .content-area1 {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 2fr 2fr;
   padding: 14px;
   margin: 10px;
   gap: 2rem;
