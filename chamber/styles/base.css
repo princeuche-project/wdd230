@@ -24,6 +24,11 @@
   --nav-color-on-color: white;
 
 }
+.lemmon{
+  background: var(--nav-hover-link-color);
+  color: white;
+  
+}
 
 * {
   max-width: 1650px;
@@ -37,17 +42,35 @@
   box-sizing: border-box;
 
 }
-
-.navigation-bar {
-  background-color: var(--accent1-color);
-  overflow: hidden;
-
+header{
+  background-color: #0bc9cd;
+  
 }
+
+/* Toggle bar */
+
+.theme-toggler{
+  position: absolute;
+  top: 3px;
+  left: 90%;
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: right;
+}
+#sharp-1{
+  color: white;
+}
+
+/* End of Toggle bar*/
 
 .navigation-bar li {
   display: inline-flex;
-   position: relative;
- left: 700px;
+  position: relative;
+  left: 700px;
   float: left;
   text-align: center;
   margin: 5px;
@@ -55,9 +78,10 @@
   text-decoration: none;
   font-size: 30px;
   border-radius: 15px;
-
+background-color: #0bc9cd;
 }
-.navigation-bar li a{
+
+.navigation-bar li a {
   color: white;
 }
 
@@ -113,13 +137,14 @@ header img {
 }
 
 header h1 {
-  color: black;
+  color: white;
   padding: 3px;
   margin: 3px;
   transition: width 2s, height 2s, transform 1s;
 
 }
-header h1:hover{
+
+header h1:hover {
   transform: scale(1.1);
 }
 
