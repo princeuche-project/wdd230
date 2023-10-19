@@ -1,4 +1,4 @@
-@media screen and (max-width:1500px){
+@media screen and (max-width:1500px) {
     nav ul {
         display: flex;
     }
@@ -73,17 +73,19 @@
     } */
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px) {
 
     header {
         width: 100%;
     }
-    header img{
+
+    header img {
         position: relative;
         right: 5rem;
         padding-right: 5rem;
     }
-    header h1{
+
+    header h1 {
         position: relative;
         right: 7.5rem;
         padding-right: 5rem;
@@ -149,6 +151,20 @@
         display: block;
     }
 
+    .hero .label {
+        top: 38%;
+        padding-top: 15px;
+        width: 90px;
+        height: 20px;
+
+    }
+
+    .label p {
+        text-align: center;
+        color: purple;
+        font-size: .80rem;
+
+    }
 
 
     main {
@@ -158,10 +174,11 @@
         /* margin: 1rem auto;
         border: 1px solid #bbb;
         padding: 1rem; */
-     /*   background-color: #e6f2ff;*/
+        /*   background-color: #e6f2ff;*/
     }
-    .iframe{
-        width: 350px ;
+
+    .iframe {
+        width: 350px;
     }
 
     iframe {
@@ -179,12 +196,9 @@
         text-align: center;
     }
 
-    /* .home {
-        background: #274C77;
-    } */
 
     div.container {
-        
+
         display: block;
         width: 300px;
         padding: 1rem;
@@ -193,36 +207,11 @@
         bottom: 2rem;
     }
 
-    /* .card1 ul,
-    .card {
-        
-       
-        height: 100%;
-        border: 1px solid gray;
-        box-shadow: 5px 5px 5px #274C77;
-    } */
 
-    /* .card1 {
-        width: 100%;
-        /* position: relative;
-        bottom: 1.6rem;
-        padding: 1rem;
-        min-width: 300px; */
-        /* grid-column: 1/2; */
-    } 
+    footer {
+        width: 106.5%;
 
-    /* .card {
-        width: 100%; */
-        /* padding: 1rem;
-        color: black;
-        /* grid-column: 2/4; */
-        /* max-width: 400px;
-        position: relative;
-        bottom: 2rem; */ 
-    
-footer{
-    width: 106.5%;
-    
-    
+
+    }
+
 }
-   

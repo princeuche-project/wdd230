@@ -1,4 +1,4 @@
-let lastModif = new Date()
+let lastModif = new Date(document.lastModified);
 document.getElementById("lastModified").innerHTML = lastModif
 
 const hamp= document.querySelector('#menu');

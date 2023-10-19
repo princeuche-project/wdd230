@@ -6,7 +6,10 @@
     user-select: none;
     overflow-y: scroll;
 } */
-
+*{
+    max-width: 1600px;
+    height: auto;
+}
 html {
     width: 100vw;
     height: 100vh;
@@ -38,6 +41,27 @@ header h1 {
     font-size: 22px;
 
 
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
+.hero .label {
+    position: absolute;
+    top: 47%;
+	
+	background: radial-gradient(#fff, #023b7c);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+.label p{
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
 }
 
 header img {
