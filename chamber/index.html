@@ -18,7 +18,7 @@
 <body>
     <header>
         <a href="" class="logo">
-            <img src="images/icon.png" alt="logo">
+            <img src="images/icon.webp" alt="logo">
         </a>
         <h1>Owerri Chamber Of Commerce</h1>
         <nav>
@@ -40,7 +40,11 @@
 
         <!--News update div-->
         <div class="news-update">
-            <img src="images/dubai-waterfront-800x450.jpg" alt="">
+            <picture class="hero">
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 800px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Hero Images">
+            </picture>
             <button type="button">Join Us</button>
             <h2>Explore The Benefits And The Impact Of Owerri Chamber Of Commerce</h2>
         </div>
@@ -97,14 +101,16 @@
             <div id="weather">
                 <h1>Weather</h1>
                 <hr>
-                <span> <img src="images/wealther.jpeg" width="100" alt="Weather"> 33.C</span>
-                <p>partly <b>Cloudy</b></p>
+                <span> <img src="images/wealther.jpeg" width="100" alt="Weather">33&deg;</span>
+                <p><b> Partly Cloudy</b></p>
+                <p>Hight: 50&deg;</p>
                 <p>Humanity: 35%</p>
-                <p>Wind Chill: N/A</p>
+                <p>wind: 3.0&deg;</p>
+               <p>Wind Chill: <span id="windchill"></span>&deg;</p>
                 <hr>
 
-                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                <div class="elfsight-app-0b2c7328-cb45-4674-9cae-5737eebc593a"></div>
+                <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                <div class="elfsight-app-0b2c7328-cb45-4674-9cae-5737eebc593a"></div> -->
             </div>
 
             <div class="advert2">
@@ -140,6 +146,7 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

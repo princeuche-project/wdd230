@@ -38,6 +38,7 @@
   outline: 0;
   appearance: none;
   border: 0;
+  
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -156,9 +157,14 @@ header h1:hover {
   top: 30%;
   right: 55%;
   font-size: 50px;
-  color: white;
+  color: var(--accent2-color);
   text-align: center;
   transition: width 2s, height 2s, transform 1s;
+}
+
+.hero{
+  width: 100%;
+  height: auto;
 }
 
 #weather {
