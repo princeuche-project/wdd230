@@ -9,14 +9,20 @@
 *{
     max-width: 1600px;
     height: auto;
+   
 }
-html {
+.container{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+/* html {
     width: 100vw;
     height: 100vh;
     overflow: scroll;
     overflow-y: scroll;
     font-family: 'Courier New', Courier, monospace;
-}
+} */
 
 header {
     margin: 5px;
@@ -49,7 +55,6 @@ header h1 {
 .hero .label {
     position: absolute;
     top: 47%;
-	
 	background: radial-gradient(#fff, #023b7c);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
@@ -124,16 +129,20 @@ section h3 {
     padding: 1rem;
     text-align: center;
 }
+section{
+    display: grid;
+    
+}
 
 .card1 ul li {
     list-style: none;
 }
 
-.card {
+ .card {
     text-align: center;
     margin: 5px;
     padding: 5px;
-
+   
 }
 
 span img {
