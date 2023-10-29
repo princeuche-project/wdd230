@@ -13,29 +13,36 @@
     <title> Owerri Chamber Of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
-    <header>
-        <a href="" class="logo">
-            <img src="images/icon.webp" alt="logo">
+    <header class="header">
+        <a class="logo" href="">
+            <img src="images/icon.webp" width="50" alt="Icon">
         </a>
-        <h1>Owerri Chamber Of Commerce</h1>
-        <nav>
-            <p id="menu"></p>
-            <ul class="navigation-bar">
-                <li><a href="#" class="active">Home</a></li>
-                <li> <a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
 
-            </ul>
+        <h1>Owerri Chamber Of Commerce</h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="icon">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="nav-bar">
+            <a href="" style="--i:0;">Home</a>
+            <a href="" style="--i:1;">Discover</a>
+            <a href="" style="--i:2;">Directory</a>
+            <a href="" style="--i:3;">join</a>
         </nav>
+
+        <div class="theme-toggler">
+            <span class="material-icons-sharp" id="active">light_mode</span>
+            <span class="material-icons-sharp" id="sharp-1">dark_mode</span>
+        </div>
     </header>
-    <div class="theme-toggler">
-        <span class="material-icons-sharp" id="active">light_mode</span>
-        <span class="material-icons-sharp" id="sharp-1">dark_mode</span>
-    </div>
+   
     <main class="container">
 
         <!--News update div-->
