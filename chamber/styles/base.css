@@ -52,7 +52,10 @@
 
 header {
   background-color: #0bc9cd;
-
+    overflow: hidden;
+    /* padding: 5px 5px; */
+  
+  
 }
 
 /* Toggle bar */
@@ -70,16 +73,21 @@ header {
   
 }
 
+.container{
+  width: 100%;
+  margin:  auto;
+}
+
 #sharp-1 {
   color: white;
 }
 
 /* End of Toggle bar*/
 
-.navigation-bar li {
+/* .navigation-bar li {
   display: inline-flex;
   position: relative;
-  left: 700px;
+  left: 700px; 
   float: left;
   text-align: center;
   margin: 5px;
@@ -88,6 +96,19 @@ header {
   font-size: 30px;
   border-radius: 15px;
   background-color: #0bc9cd;
+} */
+
+.navigation-bar li a{
+  float: left;
+  color: black;
+  position: relative;
+  left: 65%; 
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
 }
 
 .navigation-bar li a {
@@ -301,6 +322,78 @@ header h1:hover {
   margin: 10px;
   gap: 2rem;
 }
+
+/* Discover chamber file design */
+
+
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* background-color: var(--accent2-color); */
+  overflow-x: hidden;
+  padding-top: 6% ;
+}
+
+.main {
+  margin-left: 220px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.content-1 img{
+  width: 300px;
+  height: auto;
+  margin: 1em;
+  padding: 1em;
+}
+
+/* .sidebar{
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+  position: relative;
+  
+}
+.content-1{
+  grid-area: content-1;
+  position: relative;
+  width: 300px;
+}
+.content-1 img{
+  width: 300px;
+  height: auto;
+  margin: 1em;
+  padding: 1em;
+}
+
+.wrapper-1{
+  display: grid;
+  margin: auto;
+  max-width: 1200px;
+  padding: 10px;
+  row-gap: 10px;
+  grid-template-columns: repeat(200px, 3);
+} */
+
+/* .wrapper{
+  display: grid;
+  position: relative;
+  right: 520px;
+  top: 50px;
+   grid-gap: 10px; 
+  grid-template-columns: 200px 200px 200px ;
+  grid-template-areas: "sidebar content content content-1 content-1";
+} */
+/* .content img{
+width: 300px;
+height: auto;
+} */
 
 footer {
 
