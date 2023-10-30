@@ -335,8 +335,19 @@ header h1:hover {
 .sidebar {
   grid-area: sidebar;
   padding: 15px;
+  margin: 5px;
+  background: var(--nav-hover-background-color);
+  color: black;
+  box-sizing: border-box;
+  border: 2px solid var(--nav-hover-link-color);
+  border-radius: 2rem;
 
 
+}
+.sidebar img{
+  width: 100%;
+  height: auto;
+  padding: 10px;
 }
 
 .content,
@@ -356,7 +367,7 @@ header h1:hover {
 .content-2 img{
   width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 10px;
   
 }
 
@@ -386,6 +397,17 @@ header {
 
 .main-grid {
   grid-area: main-grid;
+  background: var(--nav-link-color);
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid var(--nav-hover-link-color);
+  border-radius: 2rem;
+  padding: 6px;
+  margin: 5px;
+
+}
+.main-grid img{
+ width: 100%;
 
 }
 
