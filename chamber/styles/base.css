@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display:ital@1&family=Roboto:wght@300&family=Whisper&display=swap');
 
 :root {
-    /* My coolor palette*/
-    --primary-color: #c2e812;
-    --secondary-color: #fe654f;
-    --accent1-color: #1d8a99;
-    --accent2-color: #0bc9cd;
+  /* My coolor palette*/
+  --primary-color: #c2e812;
+  --secondary-color: #fe654f;
+  --accent1-color: #1d8a99;
+  --accent2-color: #0bc9cd;
 
-    /* my fonts */
-    --heading-font: "noto serif";
-    --paragraph-font: 'noto';
+  /* my fonts */
+  --heading-font: "noto serif";
+  --paragraph-font: 'noto';
 
 
-    --headline-color-on-white: steelblue;
-    --headline-color-on-color: #1d8a99;
-    --paragraph-color-on-white: #0bc9cd;
-    --paragraph-color-on-color: white;
-    --paragraph-background-color: #0bc9cd;
-    --nav-link-color: #1d8a99;
-    --nav-background-color: steelblue;
-    --nav-hover-link-color: #c2e812;
-    --nav-hover-background-color: #fe654f;
-    --nav-color-on-color: white;
+  --headline-color-on-white: steelblue;
+  --headline-color-on-color: #1d8a99;
+  --paragraph-color-on-white: #0bc9cd;
+  --paragraph-color-on-color: white;
+  --paragraph-background-color: #0bc9cd;
+  --nav-link-color: #1d8a99;
+  --nav-background-color: steelblue;
+  --nav-hover-link-color: #c2e812;
+  --nav-hover-background-color: #fe654f;
+  --nav-color-on-color: white;
 
 }
+
 .lemmon {
   background: var(--nav-hover-link-color);
   color: white;
@@ -32,30 +33,30 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--heading-font);
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--heading-font);
+  text-decoration: none;
 }
 
 body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* width: 100%;
     padding: 1.3rem 5%; */
-    
-    background: linear-gradient( transparent, var(--accent2-color));
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-     z-index: 100%;
+
+  background: linear-gradient(transparent, var(--accent2-color));
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 100%;
 }
 
 
@@ -69,61 +70,60 @@ body {
 } */
 
 .logo img {
-    width: 50px;
-    height: auto;
-    border-radius: 2rem;
+  width: 50px;
+  height: auto;
+  border-radius: 2rem;
 
 
 }
 
 #check {
-    display: none;
+  display: none;
 }
 
 .icon {
-    font-size: 2.8rem;
-    right: 5%;
-    color: white;
-    cursor: pointer;
-    display: none;
+  font-size: 2.8rem;
+  right: 5%;
+  color: white;
+  cursor: pointer;
+  display: none;
 }
 
 .theme-toggler {
-    display: flex;
-    justify-content: end;
-    align-content: flex-end;
-    position: relative;
-    gap: 5px;
-    padding: 8px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: right;
+  display: flex;
+  justify-content: end;
+  align-content: flex-end;
+  position: relative;
+  gap: 5px;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: right;
 }
 
 .nav-bar a {
-    font-size: 2rem;
-    margin-left: 2.5rem;
-    color: black;
-    font-weight: 300;
-    border-radius: 0.5rem;
-    cursor: pointer;
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  color: black;
+  font-weight: 300;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .nav-bar {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .nav-bar a:hover {
-    color: var(--nav-hover-link-color);
-    background: var(--nav-hover-background-color);
-    opacity: .6;
+  color: var(--nav-hover-link-color);
+  background: var(--nav-hover-background-color);
+  opacity: .6;
 }
 
-
-.container{
+.container {
   width: 100%;
-  margin:  auto;
+  margin: auto;
 }
 
 .theme-toggler #sharp-1 {
@@ -131,10 +131,6 @@ body {
 }
 
 /* End of Toggle bar*/
-
-
-
-
 button {
   position: absolute;
   top: 25%;
@@ -186,7 +182,7 @@ header h1:hover {
   transition: width 2s, height 2s, transform 1s;
 }
 
-.hero{
+.hero {
   width: 100%;
   height: auto;
 }
@@ -321,77 +317,85 @@ header h1:hover {
   gap: 2rem;
 }
 
-/* Discover chamber file design */
+/* Discover main design */
 
-
+.container-box {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
+    "header header header header"
+    "sidebar main-grid main-grid main-grid"
+    "sidebar content content-1 content-2 "
+    "footer footer footer footer";
+  grid-gap: .3rem
+}
 
 .sidebar {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  /* background-color: var(--accent2-color); */
-  overflow-x: hidden;
-  padding-top: 6% ;
-}
-
-.main {
-  margin-left: 220px; 
-  font-size: 20px; 
-  padding: 0px 10px;
-}
-.content-1 img{
-  width: 300px;
-  height: auto;
-  margin: 1em;
-  padding: 1em;
-}
-
-/* .sidebar{
   grid-area: sidebar;
+  padding: 15px;
+
+
 }
 
-.content {
+.content,
+.content-1,
+.content-2 {
   grid-area: content;
-  position: relative;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  border: 2px solid #1d8a99;
+  padding: 20px;
+  margin: 5px;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.content img,
+.content-1 img,
+.content-2 img{
+  width: 100%;
+  height: auto;
+  padding: 20px;
   
 }
-.content-1{
+
+.content:hover,
+.content-1:hover,
+.content-2:hover {
+ 
+  opacity: 1;
+  transform: scale(1.1);
+
+}
+
+.content-1 {
   grid-area: content-1;
-  position: relative;
-  width: 300px;
-}
-.content-1 img{
-  width: 300px;
-  height: auto;
-  margin: 1em;
-  padding: 1em;
+
 }
 
-.wrapper-1{
-  display: grid;
-  margin: auto;
-  max-width: 1200px;
-  padding: 10px;
-  row-gap: 10px;
-  grid-template-columns: repeat(200px, 3);
-} */
+.content-2 {
+  grid-area: content-2;
 
-/* .wrapper{
-  display: grid;
-  position: relative;
-  right: 520px;
-  top: 50px;
-   grid-gap: 10px; 
-  grid-template-columns: 200px 200px 200px ;
-  grid-template-areas: "sidebar content content content-1 content-1";
-} */
-/* .content img{
-width: 300px;
-height: auto;
-} */
+}
+
+header {
+  grid-area: header;
+
+}
+
+.main-grid {
+  grid-area: main-grid;
+
+}
+
+footer {
+  grid-area: footer;
+  background: tomato;
+}
+
+
+
 
 footer {
 
