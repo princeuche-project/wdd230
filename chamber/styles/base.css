@@ -56,9 +56,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  z-index: 100px;
+  /* z-index: 100; */
 }
-.active{
+
+.active {
   background: var(--nav-hover-background-color);
   color: white;
 }
@@ -348,7 +349,8 @@ header h1:hover {
 
 
 }
-.sidebar img{
+
+.sidebar img {
   width: 100%;
   height: auto;
   padding: 10px;
@@ -368,17 +370,17 @@ header h1:hover {
 
 .content img,
 .content-1 img,
-.content-2 img{
+.content-2 img {
   width: 100%;
   height: auto;
   padding: 10px;
-  
+
 }
 
 .content:hover,
 .content-1:hover,
 .content-2:hover {
- 
+
   opacity: 1;
   transform: scale(1.1);
 
@@ -410,18 +412,20 @@ header {
   margin: 5px;
 
 }
-.main-grid img{
- width: 100%;
+
+.main-grid img {
+  width: 100%;
 
 }
 
-.main-grid .gallary{
+.main-grid .gallary {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.main-grid .gallary> img{
+
+.main-grid .gallary>img {
   width: 300px;
   height: 200px;
   border: 2px solid var(--nav-hover-background-color);
@@ -430,7 +434,8 @@ header {
   margin: 10px;
   transition: 400ms;
 }
-.main-grid .gallary> img:hover{
+
+.main-grid .gallary>img:hover {
   filter: grayscale(1);
   transform: scale(1.03);
 }
@@ -466,7 +471,7 @@ a img {
 }
 
 /* Regidtration Form Design */
-form div{
+form div {
   text-align: center;
   display: block;
   margin: 2rem auto;
@@ -476,9 +481,12 @@ form div{
   justify-content: center;
   align-content: center;
   color: white;
-  background: linear-gradient(var(--accent2-color), var(--nav-hover-background-color))
+  background: linear-gradient(var(--accent1-color), var(--nav-hover-background-color))
 }
-#Registration input, textarea, select{
+
+#Registration input,
+textarea,
+select {
   width: 60%;
   height: auto;
   padding: 5px 3px;
@@ -486,16 +494,19 @@ form div{
   border-radius: 5px;
   box-shadow: 3px 5px #c2e812;
 }
-#Registration label{
-  font-size: 23px; 
+
+#Registration label {
+  font-size: 23px;
 }
-#Registration #submit{
- font-size: 23px;
- cursor: pointer;
- padding: 3px;
- margin: 5px;
+
+#Registration #submit {
+  font-size: 23px;
+  cursor: pointer;
+  padding: 3px;
+  margin: 5px;
 }
-#Registration #submit:hover{
+
+#Registration #submit:hover {
   background-color: var(--nav-hover-link-color);
   color: #fe654f;
 }
