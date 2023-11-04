@@ -465,6 +465,46 @@ a img {
   border-radius: 2rem;
 }
 
+/* Regidtration Form Design */
+form div{
+  text-align: center;
+  display: block;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  background: linear-gradient(var(--accent2-color), var(--nav-hover-background-color))
+}
+#Registration input, textarea, select{
+  width: 60%;
+  height: auto;
+  padding: 5px 3px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  box-shadow: 3px 5px #c2e812;
+}
+#Registration label{
+  font-size: 23px; 
+}
+#Registration #submit{
+ font-size: 23px;
+ cursor: pointer;
+ padding: 3px;
+ margin: 5px;
+}
+#Registration #submit:hover{
+  background-color: var(--nav-hover-link-color);
+  color: #fe654f;
+}
+
+
+
+
+
+/* Footer design */
 footer .social img {
   padding-top: 15px;
   transition: width 1s, height 1s, transform 1s;

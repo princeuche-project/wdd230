@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Uchenna Godstime Owuamanam">
+    <meta name="description" content="Owerri Chamber Of Commerce">
+    <meta property="og:url" content="https://princeuche-project.github.io/wdd230/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="icon" href="images/GROOT.png">
+    <title> Owerri Chamber Of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="images/icon.webp" width="50" alt="Icon" loading="lazy">
+        </a>
+
+        <h1>Owerri Chamber Of Commerce</h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="icon">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="nav-bar">
+            <a href="index.html" style="--i:0;" class="active">Home</a>
+            <a href="discover.html" style="--i:1;">Discover</a>
+            <a href="" style="--i:2;">Directory</a>
+            <a href="join.html" style="--i:3;">join</a>
+        </nav>
+
+        <div class="theme-toggler">
+            <span class="material-icons-sharp" id="active">light_mode</span>
+            <span class="material-icons-sharp" id="sharp-1">dark_mode</span>
+        </div>
+    </header>
+
+    <form method="get" action="thankyou.html">
+        <div id="Registration">
+            <h1>Registration Form</h1>
+            <label for="first-name"> First Name</label><br>
+            <input type="text" name="first-name" id="first-name" placeholder="first-name" required><br>
+            <label for="last-name">Last Name</label><br>
+            <input type="text" name="last-name" id="last-name" placeholder="last-name" required><br>
+            <label for="position">Position</label><br>
+            <input type="text" name="position" id="position" pattern="[Az-az-/]{7}" placeholder="Position" required><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" name="email" id="email" placeholder="Email Address" required><br>
+            <label for="mobile">Phone Number</label><br>
+            <input type="telephone" name="telephone" id="telephone" placeholder="Phone Number" required><br>
+            <label for="organization">Organization</label><br>
+            <input type="text" name="organization" id="organization" placeholder="Organization" required><br>
+            <label for="membership"></label><br>
+            <select name="membership" id="membership">
+                <option value="NP-Membership">NP Membership</option>
+                <option value="bronze-membership"> Bronze Membership</option>
+                <option value="silver-membership">Silver Membership</option>
+                <option value="gold-membership">Gold Membership</option>
+            </select><br>
+
+           
+            <label for="description">Description</label><br>
+            <textarea name="description" id="description" cols="50" rows="10">Description</textarea><br>
+            <label for="timestamp">Timestamp</label><br>
+            <input type="hidden" name="timestamp" id="timestamp"><br>
+            <input type="submit" name="submit" id="submit">
+
+        </div>
+    </form>
+
+    <footer>
+        <p>Owerri Chamber of Commerce &copy;2023</p>
+        <p>Uchenna Godstime Owuamanam</p>
+        <p id="lastvisit"></p>
+        <div class="social">
+            <a href="">
+                <img src="images/facebook.png" alt="facebook" loading="lazy">
+            </a>
+            <a href="">
+                <img src="images/twitter.png" alt="twitter" loading="lazy">
+            </a>
+            <a href="">
+                <img src="images/linkedin.png" alt="linkedin" loading="lazy">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>
