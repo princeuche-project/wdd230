@@ -1,0 +1,60 @@
+:root {
+    --heading-font: "noto serif";
+    --paragraph-font: 'noto';
+    --primary-color: #c2e812;
+    --secondary-color: #fe654f;
+    --accent1-color: #1d8a99;
+    --accent2-color: #0bc9cd;
+
+}
+
+#registration-form label {
+    font-size: 18px;
+    margin: 2rem auto;
+    padding: 2rem;
+
+}
+
+#registration-form {
+    background: linear-gradient(var(--accent2-color), var(--primary-color));
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    
+}
+
+#registration-form input {
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+    border-radius: 2rem;
+    box-shadow: 3px 5px 3px 5px var(--accent2-color);
+}
+
+main>form {
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#submit {
+    background: var(--secondary-color);
+    font-size: 18px;
+
+}
+
+#submit:hover {
+    background: var(--accent2-color);
+    color: white;
+}
+
+@media only  screen and (max-width: 600px) {
+    #registration-form input {
+        width: 80%;
+     }
+
+    
+}

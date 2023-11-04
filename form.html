@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <title>Uchenna - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" href="images/flag.jpeg">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/media-query.css">
+    <link rel="stylesheet" href="styles/responsive-menu.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <meta property="og:url" content="https://princeuche-project.github.io/wdd230/">
+    <meta property="og:image" content="images/uche.jpg">
+
+</head>
+
+
+<body>
+
+    <header>
+        <div>
+            <img src="images/uche.jpg" alt="my picture" width="200">
+            <h1>Uchenna Godstime Owuamanam</h1>
+
+        </div>
+    </header>
+    <nav>
+        <p id="menu"></p>
+        <ul class="navigation">
+            <li class="home"><a href="index.html">Home</a></li>
+            <li><a href="lesson 03/chamber-site-plan.html" title="Site Plan" class="active">Site Plan</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/6?lang=eng"
+                    target="_blank">Scripture</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html" id="registration-form">
+            <h1>Registration Form</h1>
+            <label for="UserName">UserName: </label><br>
+            <input type="text" name="UserName" id="UserName" placeholder="UserName" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" name="key" id="key" pattern="[A-Za-z/-]{8-16}" placeholder="password" required><br>
+
+            <label for="repeat-password">Repeat Password </label><br>
+            <input type="password" name="repeat-key" id="repeat-key" placeholder="repeat-password" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="email"
+                required>
+            <label for="page rating"><br>
+                <input type="range" min="1" max="10" step="1" value="1" list="rangevalues" name="pageRating"
+                    id="pageRating"><br>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+
+            </label><br>
+            <input type="submit" name="submit" value="Create Account" id="submit">
+
+        </form>
+    </main>
+</body>
+
+<footer>
+    <p>my site &copy;2023
+        <p>Uchenna Godstime Owuamanam</p>
+        <div class="country">
+            <h4>Nigeria</h4>
+            <img src="images/flag.jpeg" alt="" loading="lazy">
+        </div>
+    </p>
+    <p id="lastModified">
+
+    </p>
+
+</footer>
+<script src="scripts/getdates.js"></script>
+<script src="scripts/lastVisited.js"></script>
+
+</body>
+
+</html>
