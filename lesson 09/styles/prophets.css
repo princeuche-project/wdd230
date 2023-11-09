@@ -1,0 +1,92 @@
+:root {
+    /* My coolor palette*/
+    --primary-color: #c2e812;
+    --secondary-color: #fe654f;
+    --accent1-color: #1d8a99;
+    --accent2-color: #0bc9cd;
+  
+    /* my fonts */
+    --heading-font: "noto serif";
+    --paragraph-font: 'noto';
+  
+  
+    --headline-color-on-white: steelblue;
+    --headline-color-on-color: #1d8a99;
+    --paragraph-color-on-white: #0bc9cd;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #0bc9cd;
+    --nav-link-color: #1d8a99;
+    --nav-background-color: steelblue;
+    --nav-hover-link-color: #c2e812;
+    --nav-hover-background-color: #fe654f;
+    --nav-color-on-color: white;
+  
+  }
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  header {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    background: linear-gradient(var(--accent1-color), var(--paragraph-background-color));
+  }
+  
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  
+  section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background: linear-gradient(var(--headline-color-on-color), #aaaaba);
+    /* background-color: rgb(140, 117, 168); */
+    background-image: -moz-radial-gradient();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+  }
+  
+  section h2 {
+    margin: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  section p {
+    margin: 0.25rem;
+  }
+  
+  section img {
+    width: 240px;
+    height: 100%;
+    border: 5px solid azure;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid gray;
+    background-color: var(--accent1-color);
+  }
+  
