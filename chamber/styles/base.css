@@ -520,12 +520,11 @@ select {
   row-gap: 1rem;
 }
 
-section {
-  margin: 0.25rem;
-  padding: 0.35rem;
-  background: linear-gradient(var(--headline-color-on-color), #aaaaba);
-  /* background-color: rgb(140, 117, 168); */
-  background-image: -moz-radial-gradient();
+.cards section {
+  margin: 1.25rem;
+  padding: 1rem;
+  background: linear-gradient(var(--headline-color-on-color), var(--accent2-color));
+   background-image: -moz-radial-gradient();
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -534,24 +533,97 @@ section {
   box-shadow: 5px 5px 10px black;
 }
 
-section h2 {
+/* .cards section h2 {
   margin: 0.25rem;
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
 }
 
-section p {
+.cards section p {
   margin: 0.25rem;
-}
+}  */
 
-section img {
+.cards section img {
   width: 240px;
-  height: 100%;
-  border: 5px solid azure;
+  height: 200px;
+  /* border: 5px solid azure; */
   margin-bottom: 10px;
+  margin: 0.5rem;
+  padding: 1rem;
 }
 
+
+
+/* Toggle grid Design */
+
+.display {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: var(--accent2-color);
+	text-align: center;
+}
+
+.display button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.display section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+
+ .list {
+	display: flex;
+	flex-direction: column;
+} 
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; 
+}
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: var(--accent1-color);
+}
+
+.display section h3 {
+	font-size: 1.5rem;
+}
+
+.display section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
+.display section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
+}
 
 
 
