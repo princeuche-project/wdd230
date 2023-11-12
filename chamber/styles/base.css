@@ -532,6 +532,9 @@ select {
   border: 1px solid black;
   box-shadow: 5px 5px 10px black;
 }
+.cards section h2{
+  color: white;
+}
 
 /* .cards section h2 {
   margin: 0.25rem;
@@ -547,10 +550,10 @@ select {
 .cards section img {
   width: 240px;
   height: 200px;
-  /* border: 5px solid azure; */
+  border: 5px solid azure;
   margin-bottom: 10px;
   margin: 0.5rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 
