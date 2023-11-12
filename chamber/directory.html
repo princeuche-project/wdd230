@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Uchenna Godstime Owuamanam">
+    <meta name="description" content="Owerri Chamber Of Commerce">
+    <meta property="og:url" content="https://princeuche-project.github.io/wdd230/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="icon" href="images/GROOT.png">
+    <title> Owerri Chamber Of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="images/icon.webp" width="50" alt="Icon" loading="lazy">
+        </a>
+
+        <h1>Owerri Chamber Of Commerce</h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="icon">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="nav-bar">
+            <a href="index.html" style="--i:0;" class="active">Home</a>
+            <a href="discover.html"  style="--i:1;">Discover</a>
+            <a href="directory.html" style="--i:2;">Directory</a>
+            <a href="join.html" style="--i:3;">Join</a>
+        </nav>
+
+        <div class="theme-toggler">
+            <span class="material-icons-sharp" id="active">light_mode</span>
+            <span class="material-icons-sharp" id="sharp-1">dark_mode</span>
+        </div>
+    </header>
+
+<main>
+    <div class="display">
+        
+		<button id="grid">⏹️Grid</button>
+		<button id="list">📄List</button>
+	</div>
+    <div class="cards"></div>
+</main>
+    
+    <footer>
+        <p>Owerri Chamber of Commerce &copy;2023</p>
+        <p>Uchenna Godstime Owuamanam</p>
+        <p id="lastvisit"></p>
+        <div class="social">
+            <a href="">
+                <img src="images/facebook.png" alt="facebook"  loading="lazy">
+            </a>
+            <a href="">
+                <img src="images/twitter.png" alt="twitter"  loading="lazy">
+            </a>
+            <a href="">
+                <img src="images/linkedin.png" alt="linkedin"  loading="lazy">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/members.js"></script>
+</body>
+
+</html>
