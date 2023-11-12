@@ -516,8 +516,8 @@ select {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  column-gap: 1rem;
-  row-gap: 1rem;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
 }
 
 .cards section {
@@ -536,24 +536,13 @@ select {
   color: white;
 }
 
-/* .cards section h2 {
-  margin: 0.25rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-}
-
-.cards section p {
-  margin: 0.25rem;
-}  */
-
 .cards section img {
   width: 240px;
   height: 200px;
   border: 5px solid azure;
   margin-bottom: 10px;
   margin: 0.5rem;
-  /* padding: 1rem; */
+   padding: 0.25rem;
 }
 
 
