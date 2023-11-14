@@ -16,10 +16,9 @@
 //     displayLinks(data);
 //   }
 
-
-
 const baseURL = " https://princeuche-project.github.io/wdd230/";
-const linksURL = "https://princeuche-project.github.io/wdd230/data/links.json";
+const linksURL = "https://princeuche-project.github.io/wdd230/data/link.json";
+
 
 async function getLinks() {
     try {
@@ -39,7 +38,7 @@ async function getLinks() {
 function displayLinks(lesson) {
     lesson.forEach((lesson) => {
         let li = document.createElement("li");
-        li.innerHTML = `Week ${lesson.lesson}: `;
+        li.innerHTML = `Lesson ${lesson.lesson}: `;
         let count = 0;
         lesson.links.forEach((link) => {
             if (count > 0) {
