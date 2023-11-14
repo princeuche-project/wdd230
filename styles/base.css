@@ -80,6 +80,14 @@ header img {
 
 }
 
+#links li  a{
+    
+    color: var(#274C77);
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+}
+
 nav ul {
 
     background: black;
