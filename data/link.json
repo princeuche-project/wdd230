@@ -1,5 +1,16 @@
 {
     "lessons": [
+
+        {
+            "lesson" : "1",
+            "links" : [
+             {
+                 "url":"lesson 01/media-query.html",
+                 "title":"Media Query Example"  
+             }
+ 
+             ]
+         },
         {
             "lesson" : "02",
             "links":[
