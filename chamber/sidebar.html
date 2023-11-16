@@ -7,10 +7,10 @@
     <title>Document</title>
 
     <style>
-        .container-box{
+        .container-box {
             display: grid;
-           height: 100vh;
-            background-color: red; 
+            height: 100vh;
+            background-color: red;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 0.4fr 1.5fr 1.2fr 0.8fr;
             grid-template-areas:
@@ -18,12 +18,10 @@
                 "sidebar main main main"
                 "sidebar content content-1 content-2 "
                 "footer footer footer footer";
-           grid-gap: .3rem
-
-
+            grid-gap: .3rem
         }
 
-         .sidebar {
+        .sidebar {
             grid-area: sidebar;
             background: purple;
 
@@ -58,11 +56,30 @@
         footer {
             grid-area: footer;
             background: tomato;
-        } 
-    </style>   
+        }
+    </style>
+
+    <script>
+        function getMages(){
+       const message = document.querySelector('#message');
+        const input = document.querySelector('#favchap');
+    
+        if (input !== "") {
+            message.innerHTML = `Thank you. Your favorite chapter is ${input}.`;
+        } else {
+            message .innerHTML= `Please enter a chapter.`;
+        }
+        document.querySelector("#out").innerHTML = message
+    }
+    </script>
 </head>
 
 <body>
+
+    <input type="text" name="" id="message" >
+    <input type="text" name="" id="favchap">
+    <button type="button" onclick="getMages()">click</button>
+    <div id="out"></div>
     <div class="container-box">
         <header>heade</header>
         <main>main</main>
@@ -72,10 +89,10 @@
         <div class="content-2">content-2</div>
         <footer>footer<footer>
 
-        <!-- <footer>footer</footer> -->
+                <!-- <footer>footer</footer> -->
 
     </div>
-   
+
 </body>
 
 </html>
