@@ -32,7 +32,7 @@
 
         <nav class="nav-bar">
             <a href="index.html" style="--i:0;" class="active">Home</a>
-            <a href="discover.html"  style="--i:1;">Discover</a>
+            <a href="discover.html" style="--i:1;">Discover</a>
             <a href="directory.html" style="--i:2;">Directory</a>
             <a href="join.html" style="--i:3;">Join</a>
         </nav>
@@ -42,7 +42,12 @@
             <span class="material-icons-sharp" id="sharp-1">dark_mode</span>
         </div>
     </header>
-   
+
+    <div id="chamberBanner">
+        <span id="bannerContent">Join us at the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</span>
+        <button type="submit" class="chamberBannerClose">❌</button>
+    </div>
+
     <main class="container">
 
         <!--News update div-->
@@ -50,7 +55,7 @@
             <picture class="hero">
                 <source media="(max-width: 500px)" srcset="images/hero-small.webp">
                 <source media="(max-width: 800px)" srcset="images/hero-medium.webp">
-                <img src="images/hero-large.webp" alt="Hero Images"  loading="lazy">
+                <img src="images/hero-large.webp" alt="Hero Images" loading="lazy">
             </picture>
             <button type="button"><a href="join.html">Join Us</a></button>
             <h2>Explore The Benefits And The Impact Of Owerri Chamber Of Commerce</h2>
@@ -67,7 +72,7 @@
                 <p>A Discussion with the COP28 Finance Team</p>
                 <pre>Featuring</pre>
                 <div class="Uchenna-image">
-                    <img src="images/passport photo.jpg" alt="Uchenna"  loading="lazy">
+                    <img src="images/passport photo.jpg" alt="Uchenna" loading="lazy">
                 </div>
                 <p>Uchenna Godstime Owuamanam</p>
                 <p>Head of the Board sector partnerships - COP28</p>
@@ -79,7 +84,7 @@
                 <h1>Maldive Investment Opportunities</h1>
                 <p>Every Wednesdays by; 10:00 AM - 12:30 PM</p>
                 <div>
-                    <img src="images/chamber-image.jpg" alt="Dubai-chamber"  loading="lazy">
+                    <img src="images/chamber-image.jpg" alt="Dubai-chamber" loading="lazy">
                 </div>
                 <h2>Events Name:</h2>
                 <p>Webinar on Maldives Investment Opportunities</p>
@@ -91,7 +96,7 @@
             <div class="colume3">
                 <h1>The U.S And Nigeria Business And Job Creation Opportunities</h1>
                 <div>
-                    <img src="images/nigeria-america.jpeg" alt="nigeria-A"  loading="lazy">
+                    <img src="images/nigeria-america.jpeg" alt="nigeria-A" loading="lazy">
                 </div>
                 <h2>Events Name:</h2>
                 <p>Webiner on the relationship between the two countries</p>
@@ -106,29 +111,44 @@
 
         <section class="content-area1">
             <div id="weather">
-                <h1>Weather</h1>
+                <!-- <h1>Weather</h1>
                 <hr>
-                <span> <img src="images/wealther.jpeg" width="100" alt="Weather"  loading="lazy">33&deg;</span>
+                <span> <img src="images/wealther.jpeg" width="100" alt="Weather" loading="lazy">33&deg;</span>
                 <p><b> Partly Cloudy</b></p>
                 <p>Hight: 50&deg;</p>
                 <p>Humanity: 35%</p>
                 <p>wind: 3.0&deg;</p>
-               <p>Wind Chill: <span id="windchill"></span>&deg;</p>
-                <hr>
+                <p>Wind Chill: <span id="windchill"></span>&deg;</p>
+                <hr> -->
 
-                <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                <div class="elfsight-app-0b2c7328-cb45-4674-9cae-5737eebc593a"></div> -->
+                <section class="card">
+                    <h1>Weather</h1>
+                    <figure><img id="weather-icon" src="images/partly-cloudy.webp" alt="image" width="64" height="64">
+                        <figcaption id="weather-desc"></figcaption>
+                    </figure>
+                    <p>Temperature: <span id="temperature"></span> °C</p>
+                    <p>Humidity: <span id="current-humidity"></span></p>
+                    <p>Wind Speed: <span id="wind-speed"></span> km/h</p>
+                    <p>Wind Chill: <span id="wind-chill"></span></p><hr><br>
+                    <h3>3 Day Forecast</h3>
+                    <div id="forecast">
+
+                    </div>
+
+                </section>
+
+               
             </div>
 
             <div class="advert2">
                 <p>Chambers of Commerce: Local Business Resources During Challenging Times</p>
-                <img src="images/poster-2.webp" alt="poster-2"  loading="lazy">
+                <img src="images/poster-2.webp" alt="poster-2" loading="lazy">
                 <p>Before the internet made online networks the norm, chambers of commerce provided important forums for
                     meeting, networking and advocating for businesses in localities and industries</p>
             </div>
 
             <div class="advert1">
-                <img src="images/poster-1.jpg" alt=""  loading="lazy">
+                <img src="images/poster-1.jpg" alt="" loading="lazy">
                 <p>OVERCOMING CAPITAL CHALLENGES WITH FIRST CIRCLE’S REVOLVING CREDIT LINE</p>
             </div>
 
@@ -142,18 +162,20 @@
         <p id="lastvisit"></p>
         <div class="social">
             <a href="">
-                <img src="images/facebook.png" alt="facebook"  loading="lazy">
+                <img src="images/facebook.png" alt="facebook" loading="lazy">
             </a>
             <a href="">
-                <img src="images/twitter.png" alt="twitter"  loading="lazy">
+                <img src="images/twitter.png" alt="twitter" loading="lazy">
             </a>
             <a href="">
-                <img src="images/linkedin.png" alt="linkedin"  loading="lazy">
+                <img src="images/linkedin.png" alt="linkedin" loading="lazy">
             </a>
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 
 </html>

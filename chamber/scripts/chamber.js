@@ -39,3 +39,13 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+
+
+// const url = "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid={475290c56462be6c690963bd17bb2398}"
+
+
+// fetch(url)
+//   .then((response) => response.json())
+//   .then((json) => displayResults(json))
+//   .catch((error) => console.error(`Error fetching data: ${error.message}`));
